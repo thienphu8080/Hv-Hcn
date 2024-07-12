@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace SCC_math
 {
     class Program
@@ -13,7 +12,6 @@ namespace SCC_math
             int ChieuRong = Convert.ToInt32(Console.ReadLine());
             int DienTich = ChieuDai * ChieuRong;
             Console.WriteLine("Dien tich hinh chu nhat la: " + DienTich);
-
         }
     }
 }
