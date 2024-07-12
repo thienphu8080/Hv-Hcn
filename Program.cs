@@ -1,7 +1,4 @@
-﻿using System;
-namespace SCC_math
-{
-    class Program
+﻿{
     {
         static void Main(string[] args)
         {
