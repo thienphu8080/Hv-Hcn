@@ -1,12 +1,16 @@
 ﻿using System.Numerics;
-
-namespace Code
+﻿namespace Code
 {
-    internal class Program
-    {
+    {internal class Program
         static void Main(string[] args)
         {
-            //Viet code tinh dien tich, chu vi Hv, Hcn.
+            Console.Write("Nhap chieu dai: ");
+            int ChieuDai = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Nhap chieu rong: ");
+            int ChieuRong = Convert.ToInt32(Console.ReadLine());
+            int DienTich = ChieuDai * ChieuRong;
+            Console.WriteLine("Dien tich hinh chu nhat la: " + DienTich);
             Console.WriteLine("Tinh dien tich hinh vuong");
             Console.Write("Canh = ");
             BigInteger canh= int.Parse(Console.ReadLine());
