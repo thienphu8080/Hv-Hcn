@@ -1,4 +1,18 @@
 ﻿using System.Numerics;
+
+public class Square
+{
+    public double Side { get; set; }
+
+    // Phương thức tính chu vi
+    public double CalculatePerimeter()
+    {
+        return 4 * Side;
+    }
+
+  
+}
+
 ﻿namespace Code
 {
      internal class Program
@@ -16,6 +30,11 @@
             Console.Write("Canh = ");
             BigInteger canh= int.Parse(Console.ReadLine());
             Console.WriteLine("Dien tich hinh vuong la: {0}", canh * canh);
+
+            Square square = new Square();
+            square.Side = 5; // Gán độ dài cạnh của hình vuông
+            double perimeter = square.CalculatePerimeter();
+            Console.WriteLine("Chu vi của hình vuông là: " + perimeter);
         }
     }
 }
