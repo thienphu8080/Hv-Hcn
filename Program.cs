@@ -5,6 +5,7 @@
     {
         static void Main(string[] args)
         {
+             Console.WriteLine("Tinh dien tich hinh chu nhat");
             Console.Write("Nhap chieu dai: ");
             int ChieuDai = Convert.ToInt32(Console.ReadLine());
             Console.Write("Nhap chieu rong: ");
